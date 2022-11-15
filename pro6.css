@@ -1,0 +1,101 @@
+@font-face{
+    src: url(HappyMonkey.ttf);
+    font-family: happymonkey;
+}
+
+body{
+    font-family: happymonkey;
+    font-weight: bold;
+    background: linear-gradient( to right, #a2d2ff, #efb0c9);
+    /* background-color: #a2d2ff;  #efb0c9*/
+    color: #fff;
+    margin: 0px;
+}
+
+.cover{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hbd{
+    font-size: 50px;
+}
+
+.bb-img{
+    width: 200px;
+    border: 5px solid #efb0c9;
+    border-radius: 100px;
+}
+
+h1, h2, h4 {
+    text-shadow: 0px 0px 1px black;
+}
+
+#bb-age, #bb-date{
+    background-color: #efb0c9;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 25px 0 0;
+}
+
+.gift-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.gift-subhead{
+    margin-top: 0;
+}
+
+.gift-img{
+    width: 400px;
+    height: 400px;
+    background-image: url(gift.jpg);
+    background-size: cover;
+    border: 10px solid white;
+    border-radius: 15px;
+}
+
+#gift-cheers{
+    height: 300px; 
+}
+
+.gift-one:hover{
+    background-image: url(happy.gif);
+}
+.gift-two:hover{
+    background-image: url(entry.gif);
+}
+.gift-three:hover{
+    background-image: url(genius.gif);
+}
+.gift-four:hover{
+    background-image: url(badass.gif);
+}
+.gift-five{
+    background-image: url(gift2.jpg);
+    background-position-y: center;
+}
+
+.gift-five:hover{
+    background-image: url(cheers.gif);
+}
+
+footer{
+    background-color: white;
+    padding: 40px;
+    margin: 50px 0px 0px;
+    text-align: center;
+    color:#5caffd;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #efb0c9;
+}
